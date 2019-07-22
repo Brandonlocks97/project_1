@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<!-- Stylesheets-->
+	<link rel="stylesheet" href="home-styles.css">
+	<!-- javascript -->
+	<script src="home-script.js" defer>
+	</script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+  </head>
+<body>
+<!--**class of hidden is hidden on media query and class of shown is shown on media query**-->
+
+<!--Hamburger menu that was removed might be added later with bootstap styling-->
+	<!-- <image id="hamburger" src=hamburger.png>
+	<div id="navBar">
+		<image id="exit" src="exit.png">
+		<ul class="nav flex-column">
+		  <li class="nav-item">
+			<a id="navSignUp" class="nav-link" href="#">Sign Up!</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">More Info</a>
+		  </li>
+		</ul>
+	</div> -->
+	
+	<!--Mobile Sign up button only displayed on media query-->
+	<div id="mobileSignUp"style="display: none;"class="container shown" >
+		<a href="signUp.html"><div style="font-size: 24px;"class="btn btn-primary">
+		SignUp
+		</div></a>
+	</div>
+	<!--first scrollable window of page-->
+    <div id="first">	
+			<h1 class="header">Lorem ipsum dolor.</h1>
+			<p class="mt-4"style="color: black;">The essental workout app for any fitness training</p>
+			<div style="width: 200px; display: block; "class="mx-auto mt-5">
+				<a href="signUp.html" class="myButton">SignUp</a>
+			</div>
+			<button type="button" id="scrollBtn1" class="btn btn-primary scrollBtn hidden">Next</button> 
+		
+	</div>
+	<!--second scrollable window of page-->
+	<div id="second">
+		<h1 id="secondHeader"class="header">Lorem ipsum.</h1>
+    	<div class="row no-gutters">
+    		<div class="col-md-2 secondLeft">
+					<div class="row">
+					<div class="col-md-1">
+					</div>
+						<div class="col-md-8 text-center">
+							<div class="card">
+								<div class="card-header">Info</div>
+								<div id="secondAbout" class="secondBtns card-text mt-2">About</div>
+								<div id="secondPricing" class="secondBtns card-text mt-2">Pricing</div>
+								<div id="secondContact" class="secondBtns card-text mt-2">Contact</div>
+								<div id="secondMore" class="secondBtns card-text mt-2">More</div>
+							</div>
+							
+						</div>
+					</div>
+				
+				<!-- TO BE ADDED LATER<image id="image1"></image> -->
+    		</div>
+			<div class="secondMiddle col-md-6 ">
+				<div id="aboutText" style= "" class="secondText text-center">
+					 Distinctio, dolores, delectus eius sequi quidem officiis quas aliquid quasi animi culpa facilis vel enim incidunt porro iure voluptatibus esse impedit obcaecati dolorum aperiam commodi perspiciatis iste libero veniam vitae in exercitationem eligendi hic inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, facilis!
+					
+				</div>
+				
+				<div id="pricingText" style= "display: none" class="secondText text-center" >
+					lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum asperiores vitae architecto incidunt libero quasi. Distinctio, dolores, delectus eius sequi quidem officiis quas aliquid quasi animi culpa facilis vel enim incidunt porro iure voluptatibus esse impedit obcaecati dolorum aperiam commodi perspiciatis iste libero veniam vitae in exercitationem eligendi hic inventore.
+					
+				</div>
+				
+				<div id="contactText" style="display: none" class="secondText text-center">
+					</br>
+					You can Email us at:<a href="mailto:example@email.com">example@email.com</a>
+					</br></br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, autem nemo consectetur aut aliquam nobis cupiditate harum voluptatem excepturi quidem blanditiis eius dignissimos qui exercitationem.
+					
+				</div>
+				
+				<div id="moreText" style="display: none;" class="secondText text-center" >
+					impedit obcaecati dolorum aperiam commodi perspiciatis iste libero veniam vitae in exercitationem eligendi hic inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, labore, illo, quaerat odit libero adipisci sapiente velit eos nam molestias facilis delectus minus est! Beatae!
+				</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="card-deck">
+				<div style="font-size: 22pt;"class="card">
+			
+					<div style="font-size: 18pt;" class="card-header text-center">Coupon 10% off!</div>
+					Use this copuon code on the creation of your account to get 10% off of your purchase: <a href="signUp.html?Coupon10">Coupon10</a></div>
+				</div>
+			<!-- TO BE ADDED LATER<image id="image1"></image> -->
+			<button type="button" id="scrollBtn2" class="scrollBtn btn btn-primary hidden">More Info</button>
+			</div>
+    	</div>
+	</div>
+
+	<div id="third">
+		<div>
+			<div><h1 id="thirdHeader" class="header">Lorem ipsum dolor.</div>
+			<div><h3 class="sm-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, commodi.</h3></div>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, distinctio itaque ducimus hic culpa blanditiis.</p>
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, quae, aspernatur nostrum optio vitae illo.</p>
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, laboriosam aspernatur est eveniet nisi quam!</p>
+					<!-- TO BE ADDED LATER <image></image> -->
+				</div>
+				<div class="col-md-6">
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptates, necessitatibus ab cumque veniam provident.</p>
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nisi repellat corrupti nemo repudiandae natus!</p>
+					<p class="underText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus fuga eius consectetur ducimus repellat!</p>
+					<!-- TO BE ADDED LATER<image></image> -->
+				</div>
+			</div>
+			
+	  
+			<div id="bottom">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<a type="button" id="backToTop" class="btn btn-primary hidden" href="#">Back To Top</a>
+			<div class="row">	
+				<a style= "margin: auto; margin-top: 10px; "type="button" id="heroBtn3" class="btn btn-primary heroBtn hidden" href="signUp.html">Sign Up</a>
+			</div>
+			</div>
+		</div>
+		<div id="footer">&copy Lorem ipsum dolor 2019</div>
+	</div>
+	
+	
+	
+	
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

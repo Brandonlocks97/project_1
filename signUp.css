@@ -1,0 +1,65 @@
+
+.card-header{
+	height: 60px;
+	background-color: darkgray;
+}
+#label {
+	font-size:14pt;
+}
+
+/* div containing entire form*/
+#fullForm{
+}
+
+.form{
+	max-width: 100%;
+	background-color: gray;
+	border-style: solid;
+	
+}
+/*adds margin to right navbar*/
+a.dropdown-item{
+	margin-top: 10px;
+	border-style: solid;
+}
+
+#topForm {
+	
+}
+
+#bottomForm{
+
+}
+
+/*Aligns over 18 and sumbit  button to rest of form*/
+.dropAlign{
+	margin-top: 25px;
+}
+/*incorrectly filled forms are given this place holder to make them stand out*/
+.placeHolder::placeHolder{
+	color: red;
+	
+}
+/* membership cards at bottom of screen*/
+#memCards{
+	margin-top: 10px;
+}
+.card{
+	background-color: Gainsboro;
+}
+
+.shown {
+	visibility: hidden;
+}
+/* Media querys*/
+@media only screen and (max-width: 767px){
+	#fullForm{
+		margin-top: 0px;
+	}
+	.hidden{
+		display: none;
+	}
+	.shown {
+		visibility: visible;
+	}
+}

@@ -1,0 +1,69 @@
+
+#topSpacing{
+	height: 100px;
+}
+body{
+	height: 800px;
+	overflow-x: hidden;
+}
+
+
+#head {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	margin: 0px;
+	opacity: 0%; 
+}
+
+.cards{
+	width: 100%;
+	height: 200px;
+	
+}
+
+.card:hover{
+	cursor: pointer;
+
+}
+
+.locked{
+	background-color: gray;
+	height: 400%;
+	cursor: not-allowed !important;
+}
+
+image{
+	height: 100px;
+}
+a{
+	text-decoration: none !important;
+}
+
+#logout{
+	position: absolute;
+	left: 90%;
+	top: 5%;
+}
+
+#account{
+	position: absolute;
+	left: 80%;
+	top: 5%;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* media querys */
+@media only screen and (max-width: 900px){
+	.hidden {
+		display: block !important;
+	}
+	.shown {
+		display: none;
+	}
+}
